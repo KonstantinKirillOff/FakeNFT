@@ -1,13 +1,9 @@
-# ТЗ мобильного приложения FakeNFT
+## **FakeNFT** 
 
-# Ссылки
+FakeNFT - Приложение помогает пользователям просматривать и покупать NFT (Non-Fungible Token). Функционал покупки иммитируется с помощью мокового сервера.
+[Ссылки на макет в Figma](https://www.figma.com/file/k1LcgXHGTHIeiCv4XuPbND/FakeNFT-(YP)?node-id=96-5542&t=YdNbOI8EcqdYmDeg-0)
 
-[Дизайн Figma](https://www.figma.com/file/k1LcgXHGTHIeiCv4XuPbND/FakeNFT-(YP)?node-id=96-5542&t=YdNbOI8EcqdYmDeg-0)
-
-# Назначение и цели приложения
-
-Приложение помогает пользователям просматривать и покупать NFT (Non-Fungible Token). Функционал покупки иммитируется с помощью мокового сервера.
-
+## **Описание приложения**
 Цели приложения:
 
 - просмотр коллекций NFT;
@@ -23,7 +19,7 @@
 - Пользователь может посмотреть рейтинг пользователей и информацию о пользователях.
 - Пользователь может смотреть информацию и своем профиле, включая информацию об избранных и принадлежащих ему NFT.
 
-Планируется реализовать:
+Планируется реализовать в следующих релизах:
 - локализация
 - тёмная тема
 - статистика на основе Яндекс Метрики
@@ -33,3 +29,26 @@
 - сообщение о сетевых ошибках
 - кастомный launch screen
 - поиск по таблице/коллекции в своём эпике
+
+## **Примеры из приложения**  
+<img src="https://github.com/KonstantinKirillOff/FakeNFT/assets/53314883/62fb0c63-a30c-4d5b-8a09-b940a65fe1c0" width="195" alt="image"/>  
+<img src="https://github.com/KonstantinKirillOff/FakeNFT/assets/53314883/42353958-c56a-455c-acc6-ddf713fe5dcc" width="195" alt="image"/> 
+<img src="https://github.com/KonstantinKirillOff/FakeNFT/assets/53314883/005c54fd-56a7-450c-b204-11cc96be0c04" width="195" alt="image"/>
+
+## **Технические особенности**
+- Приложение поддерживает только устройства iPhone с iOS 13, предусмотрен только портретный режим.
+
+
+## **В разработке использовалось:**
+- MVVM c помощью property wrapper
+- Работа с Web view
+- Работа с UITableView
+- Работа с UICollectionView
+- Работа с UIPageViewController
+- Работа с UISearchController
+- URLSession
+- JSON
+- Локализация
+- Темная тема
+- UnitTests
+- Figma
